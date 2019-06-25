@@ -6,14 +6,13 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 type SEOProps = {
-  description: string
-  lang: string
-  meta: Array<{ name: string; content: string }>
+  description?: string
+  lang?: string
+  meta?: Array<{ name: string; content: string }>
   title: string
 }
 
